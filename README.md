@@ -1,1 +1,17 @@
 # Machine-learning-based-Pairs-Trading-Strategy
+
+## Introduction 
+The explosive growth of big data has transformed the finance industry, creating new opportunities to extract value from financial information. For global banking, McKinsey estimates that AI technologies could potentially deliver up to $1 trillion of additional value each year. The use of machine learning techniques in finance has in fact shown promise in developing more accurate trading strategies, improving investment decisions, and maximizing returns while minimizing risk. Despite this, the use of such techniques in pairs trading is still scarce. 
+
+
+This thesis aims to contribute to the literature on machine learning-based pairs trading strategies by replicating the paper “A Machine Learning Based Pairs Trading Investment Strategy” by Horta and Sarmento, and by exploring modifications that will validate and extend their results. The paper presents a novel approach that involves using machine learning techniques to select pairs of assets to trade and a trading algorithm that uses a neural network to predict the price movements of the pairs.
+
+
+The thesis will follow the same structure as the paper, which is divided into two research stages: the pairs selection stage and the trading stage. Research Stage 1, the pairs selection stage, encompasses two steps: (i) finding the appropriate candidate pairs and (ii) selecting the most promising ones. Here machine learning will be used in the form of unsupervised learning to identify pairs of assets suitable for pairs trading. In Research Stage 2, the trading stage, we will develop and test a trading algorithm that leverages supervised learning algorithms to predict the price movements of the selected pairs and generate buy/sell signals. To have a benchmark, the results obtained from the implemented machine learning algorithms will be compared with those obtained with more traditional statistical techniques.
+
+
+Each step necessary to complete these two research phases will be explained first from a theoretical point of view and then from a practical point of view, i.e. how to implement it in Python. All the codes developed for this thesis are fully reproducible and made publicly available on the author's GitHub page. 
+To the best of my knowledge, this thesis is one of the first to replicate and extend the original paper's approach. Firstly, we will increase the frequency of the data from 5-min to 1-min to enable a reduction in the required formation period and consequently find more pairs. In doing so, we can also examine Horta and Sormento's proposition, which posits that shortening the training duration could enhance the predictive accuracy of the forecast-driven model. Secondly, we will add more features to predict the price variations, which could provide a more comprehensive view of the market. Finally, we will combine commodity-linked ETFs and currency-linked ETFs to diversify the portfolio and reduce risk.
+
+
+Overall, this thesis aims to provide a comprehensive overview of the approach, including its theoretical and practical aspects, with a particular focus on the machine learning techniques used. The thesis and accompanying codes will be valuable resources for academics and practitioners interested in the application of machine learning in finance, and it is hoped that the results of this thesis will contribute to the growing body of literature on machine learning-based trading strategies.
